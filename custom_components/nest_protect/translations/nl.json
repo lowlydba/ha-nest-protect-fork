@@ -116,6 +116,22 @@
       },
       "current_temperature": {
         "name": "Temperatuur"
+      },
+      "smoke_status_sensor": {
+        "name": "Rookstatus",
+        "state": {
+          "ok": "OK",
+          "warning": "Waarschuwing",
+          "emergency": "Noodgeval"
+        }
+      },
+      "co_status_sensor": {
+        "name": "CO-status",
+        "state": {
+          "ok": "OK",
+          "warning": "Waarschuwing",
+          "emergency": "Noodgeval"
+        }
       }
     },
     "select": {
