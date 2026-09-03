@@ -26,7 +26,7 @@ from .pynest.enums import BucketType
 
 SMOKE_CO_STATUS_TO_STATE: dict[int, str] = {
     0: "ok",
-    1: "ok",
+    1: "testing",
     2: "warning",
     3: "emergency",
 }
@@ -139,14 +139,14 @@ SENSOR_DESCRIPTIONS: list[NestProtectSensorDescription] = [
         translation_key="smoke_status_sensor",
         value_fn=smoke_co_status_to_state,
         device_class=SensorDeviceClass.ENUM,
-        options=["ok", "warning", "emergency"],
+        options=["ok", "testing", "warning", "emergency"],
     ),
     NestProtectSensorDescription(
         key="co_status",
         translation_key="co_status_sensor",
         value_fn=smoke_co_status_to_state,
         device_class=SensorDeviceClass.ENUM,
-        options=["ok", "warning", "emergency"],
+        options=["ok", "testing", "warning", "emergency"],
     ),
     # TODO Add Color Status (gray, green, yellow, red)
 ]

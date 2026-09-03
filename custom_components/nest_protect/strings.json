@@ -121,6 +121,7 @@
         "name": "Smoke status",
         "state": {
           "ok": "OK",
+          "testing": "Testing",
           "warning": "Warning",
           "emergency": "Emergency"
         }
@@ -129,6 +130,7 @@
         "name": "CO status",
         "state": {
           "ok": "OK",
+          "testing": "Testing",
           "warning": "Warning",
           "emergency": "Emergency"
         }

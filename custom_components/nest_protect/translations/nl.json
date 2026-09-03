@@ -121,6 +121,7 @@
         "name": "Rookstatus",
         "state": {
           "ok": "OK",
+          "testing": "Testen",
           "warning": "Waarschuwing",
           "emergency": "Noodgeval"
         }
@@ -129,6 +130,7 @@
         "name": "CO-status",
         "state": {
           "ok": "OK",
+          "testing": "Testen",
           "warning": "Waarschuwing",
           "emergency": "Noodgeval"
         }
